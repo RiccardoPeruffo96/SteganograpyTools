@@ -1,0 +1,121 @@
+{
+	/*
+	  *	le righe che iniziano con i doppi slash 
+	  *	o circoscritte tra i caratteri slash asterisco - asterisco slash (come questo testo)
+	  *	sono commenti e quindi non vengono letti dal programma
+	  */
+	"hide" :
+	{
+		//l'attributo 'file' non deve mai subire variazioni
+		"file_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file da nascondere dentro l'immagine
+			  */
+			"name" : "file.zip"
+		},
+		
+		//l'attributo 'img_input' non deve mai subire variazioni
+		"img_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome dell'immagine in input
+			  */
+			"name" : "imgInput.jpg"
+		},
+
+		//l'attributo 'img_output' non deve mai subire variazioni
+		"img_output" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome dell'immagine alla fine dell'esecuzione
+			  */
+			"name" : "imgOutput"
+		}
+	},
+	
+	"seek" :
+	{
+		//l'attributo 'img_input' non deve mai subire variazioni
+		"img_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome dell'immagine in input
+			  */
+			"name" : "imgOutput.png"
+		},
+		
+		//l'attributo 'file_output' non deve mai subire variazioni
+		"file_output" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file in output
+			  */
+			"name" : "file_output.zip"
+		}
+	},
+	
+	"encrypt" :
+	{
+		//l'attributo 'file_input' non deve mai subire variazioni
+		"file_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file in input
+			  */
+			"name" : "file.txt"
+		},
+		
+		//l'attributo 'file_output' non deve mai subire variazioni
+		"file_output" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file in output
+			  */
+			"name" : "file.txt"
+		}
+	},
+	
+	"decrypt" :
+	{
+		//l'attributo 'file_input' non deve mai subire variazioni
+		"file_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file in input
+			  */
+			"name" : "file.txt"
+		},
+		
+		//l'attributo 'file_output' non deve mai subire variazioni
+		"file_output" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file in output
+			  */
+			"name" : "file.txt"
+		}
+	}, 
+	
+	"remove_file" :
+	{
+		//l'attributo 'file_input' non deve mai subire variazioni
+		"file_input" : 
+		{
+			/*
+			  *	l'attributo 'name' non deve mai subire variazioni
+			  *	il valore dentro le virgolette dopo i due punti rappresenta il nome del file da cancellare
+			  */
+			"name" : "file_remove.zip"
+		}
+	}
+}
