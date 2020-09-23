@@ -567,7 +567,7 @@ void aes128::encrypt(char* dataToPrint, int dimension, unsigned char Key[4][4])
 			else
 			{
 				State[bytes % 4][bytes / 4] = 0x00;
-				std::cout << "NON CI DEVO ENTRARE QUI PORCAMADONNA - funzione crypt - inserimento dei valori Data in State" << std::endl;
+				std::cout << "NON CI DEVO ENTRARE QUI - funzione crypt - inserimento dei valori Data in State" << std::endl;
 			}
 		}
 
@@ -653,7 +653,7 @@ void aes128::decrypt(char* dataToPrint, int dimension_not_original, unsigned cha
 			else
 			{
 				State[bytes % 4][bytes / 4] = 0x00;
-				std::cout << "NON CI DEVO ENTRARE QUI PORCAMADONNA - funzione decrypt - inserimento dei valori Data in State" << std::endl;
+				std::cout << "NON CI DEVO ENTRARE QUI - funzione decrypt - inserimento dei valori Data in State" << std::endl;
 			}
 		}
 

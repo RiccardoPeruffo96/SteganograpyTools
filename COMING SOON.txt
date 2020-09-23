@@ -1,4 +1,7 @@
-upcoming features (not in order):
+Next features:
+1) Manage try catch 
+
+Upcoming features (not in order):
 1) GUI;
 2) Login form:
 	a) Better implementation of config.json 
